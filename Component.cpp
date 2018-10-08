@@ -28,7 +28,6 @@ std::string Component::getComponentId() {
 
 void Component::update() {
     std::cout << "Component <" << id << "> Update" << std::endl;
-
 }
 
 void Component::display() {

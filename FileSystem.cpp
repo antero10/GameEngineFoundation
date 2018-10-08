@@ -34,9 +34,6 @@ void FileSystem::readXML(char* filename) {
     if (!doc->Error()) {
         doc->LoadFile(filename);
     }
-
-
-
 }
 
 tinyxml2::XMLElement* FileSystem::FirstChildElement(char *element) {
