@@ -16,7 +16,7 @@ public:
     Component();
     ~Component();
     void initialize(tinyxml2::XMLElement* element) override;
-    std::string getComponentId();
+    const std::string& getComponentId();
     void update();
     void display();
 };

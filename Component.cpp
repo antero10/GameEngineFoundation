@@ -22,8 +22,9 @@ void Component::initialize(tinyxml2::XMLElement* element) {
     std::cout << "Component initialized, id: "<< id << std::endl;
 }
 
-std::string Component::getComponentId() {
-    return std::to_string(id);
+const std::string& Component::getComponentId() {
+    const std::string& value = std::to_string(id);
+    return value;
 }
 
 void Component::update() {
