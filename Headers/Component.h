@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include "tinyxml2.h"
-#import "Object.h"
+#include "Object.h"
 
 class Component: public Object {
 private:

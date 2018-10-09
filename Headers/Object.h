@@ -5,8 +5,8 @@
 #ifndef LAB_2_OBJECT_H
 #define LAB_2_OBJECT_H
 
-#import <iostream>
-#import "tinyxml2.h"
+#include <iostream>
+#include "tinyxml2.h"
 class Object {
 private:
     bool initialized;
