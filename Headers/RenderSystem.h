@@ -6,6 +6,7 @@
 #define LAB_2_RENDERSYSTEM_H
 
 #include <iostream>
+#include <string>
 #include "tinyxml2.h"
 
 class RenderSystem {

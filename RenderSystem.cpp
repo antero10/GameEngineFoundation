@@ -25,7 +25,7 @@ void RenderSystem::initialize(tinyxml2::XMLElement* element) {
         fullscreen = windowsElement->BoolAttribute("fullscreen");
     }
 
-    std::cout<< "Render initialized....Name: "<< name << ", Height: " << height << ", Width: " << width << ", Fullscreen: " << fullscreen << std::endl;
+    std::cout << "Render initialized....Name: " << name << ", Height: " << height << ", Width: " << width << ", Fullscreen: " << fullscreen << std::endl;
 
 }
 
