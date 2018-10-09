@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <list>
+#include "algorithm"
 #include "Component.h"
 #include "tinyxml2.h"
 #include "Object.h"
