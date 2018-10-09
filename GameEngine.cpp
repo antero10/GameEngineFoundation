@@ -69,14 +69,12 @@ void GameEngine::gameLoop() {
 }
 
 void GameEngine::display() {
-    clock_t start = clock();
-    while ((clock() - start) / CLOCKS_PER_SEC <= 10)
-    {
-        renderSystem->display();
-        fileSystem->display();
-        inputManager->display();
-        assetManager->display();
-        gameObjectManager->display();
-    }
+
+    renderSystem->display();
+    fileSystem->display();
+    inputManager->display();
+    assetManager->display();
+    gameObjectManager->display();
+
     std::cout << "Game Loop end" << std::endl;
 }
