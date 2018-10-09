@@ -16,4 +16,4 @@ and running `g++ AssetManager.cpp Component.cpp FileSystem.cpp GameEngine.cpp Ga
 # Windows
 
 using this line `cl /EHsc main.cpp AssetManager.cpp Component.cpp FileSystem.cpp GameEngine.cpp GameObject.cpp GameObjectManager.cpp InputManager.cpp  Object.cpp RenderSystem.cpp tinyxml2.cpp`
-can compile all this project with no problem
+can compile all this project with no problem, then run `main.exe` file
